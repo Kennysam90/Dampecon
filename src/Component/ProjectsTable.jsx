@@ -322,7 +322,6 @@ const handleDelete = (id) => {
         <input type="text" placeholder="Client Name" style={input} value={form.clientName} onChange={(e) => setForm({ ...form, clientName: e.target.value })} />
         <input type="text" placeholder="Timeline" style={input} value={form.timeLine} onChange={(e) => setForm({ ...form, timeLine: e.target.value })} />
         <input type="text" placeholder="State" style={input} value={form.state} onChange={(e) => setForm({ ...form, state: e.target.value })} />
-        // File input + checkbox
         <label style={{ display: "flex", alignItems: "center", gap: "8px" }}>
         <input
             type="checkbox"
