@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from "react";
 import Topnav from '../Component/Topnav'
 import Footer from '../Component/Footer'
 import { Link } from 'react-router-dom';
@@ -6,10 +6,21 @@ import Comment from '../Component/Comment';
 import Chat from '../Component/Chat';
 import Project from '../Component/project';
 import HomeProject from '../Component/HomeProject';
+import { dummyTestimonials } from "../Component/TestimonialsPage";
+import TestimonialsManager from "../Component/TestimonialsManager";
 
 const Home = () => {
   // this stores which tab is active
     const [activeTab, setActiveTab] = useState("");
+    const [testimonials, setTestimonials] = useState([]);
+
+    useEffect(() => {
+      const stored =
+        JSON.parse(localStorage.getItem("testimonials")) || dummyTestimonials;
+      setTestimonials(stored);
+    }, []);
+
+
   
     // when a tab is clicked, update activeTab
     const handleTabClick = (tab) => {
@@ -169,7 +180,7 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col flex v--center h--center fd--column">
-                    <div className="title--l color--white">500M+</div>
+                    <div className="title--l color--white">60T+</div>
                     <div className="txt color--white-light txt--s minh-2lh minh-3lh-mob">
                       <p>Serving Clients Nationwide</p>
                     </div>
@@ -736,11 +747,11 @@ Our experienced engineers and project managers are committed to delivering solut
                 </div>
                 <div className="col last-block flex fd--column v--start isview slidetop">
                   <div className="inner color--dark radius-12 bg--gray bg--orange-mob flex fd--column v--start clipped-right-mob">
-                    <div className="title title--l">50+ team members</div>
+                    <div className="title title--l">60+ team members</div>
                     <div className="btn-wrap mt-auto pt-24">
                       <Link
                         className="btn btn--simple dark arr"
-                        to="/about-us"
+                        to="/teams"
                         target="_self">
                         <span>
                           <b>Learn more</b>
@@ -832,7 +843,9 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                 </div>
               </div>
             </div>
-          </div><Comment /><Chat />
+          </div>
+          <Comment testimonials={testimonials} />
+          <Chat />
         </section>
         
        

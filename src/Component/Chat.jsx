@@ -300,7 +300,7 @@ const Chat = () => {
                       <div className="txt txt--s color--white-light">
                         Legal Services{" "}
                       </div>
-                      <div className="email_wrap flex v--start h--start gap-8 mt-10 pt-8">
+                      <div className=" flex v--start h--start mt-10 pt-8">
                         <div className="copy_wrap">
                           <img
                             src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
@@ -351,9 +351,9 @@ const Chat = () => {
                       </a>
                       <div className="txt txt--m">Engr. Dandale A.M, FNSE, COREN Chairman </div>
                       <div className="txt txt--s color--white-light">
-                        Co-Founder &amp; CPO{" "}
+                        Chairman
                       </div>
-                      <div className="email_wrap flex v--start h--start gap-8 mt-10 pt-8">
+                      <div className=" flex v--start h--start gap-4 mt-10 pt-8">
                         <div className="copy_wrap">
                           <img
                             src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
@@ -366,7 +366,7 @@ const Chat = () => {
                         </div>
                         <a
                           href="mailto:mailto:dampecon0504@yahoo.comudio.com"
-                          className="btn btn--simple"
+                          className="btn btn--simple" 
                         >
                           <span>dandaleam@dampecon.com</span>
                         </a>

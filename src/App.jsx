@@ -26,6 +26,8 @@ import ProjectsTable from './Component/ProjectsTable';
 import TeamsTable from './Component/TeamsTable';
 import HomeProject from './Component/HomeProject';
 import Backup from './Component/backup';
+import TestimonialsManager from './Component/TestimonialsManager';
+import TestimonialsList from './Component/TestimonialsList';
 
 function App() {
 
@@ -61,6 +63,8 @@ function App() {
         <Route path='/teamsTable' element={<TeamsTable />} />
         <Route path='/homeproject' element={<HomeProject />} />
         <Route path='/backup' element={<Backup />} />
+        <Route path='/testimonials' element={<TestimonialsManager />} />
+        <Route path='/testimonials-list' element={<TestimonialsList />} />
       </Routes>
      </Router>
      </QueryClientProvider>

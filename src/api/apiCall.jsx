@@ -55,9 +55,33 @@ export const getProjects = async () => {
   }
 };
 
+
 export const createProject = async (data) => {
   const res = await axiosInstance.post("/projects", data, {
     headers: { "Content-Type": "multipart/form-data" },
   });
+  return res.data;
+};
+
+// ================= COMMENTS =================
+export const getComments = async () => {
+  try {
+    const response = await axiosInstance.get(`/comments/`);
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching comments:', error);
+    throw error;
+  }
+};
+
+export const createComment = async (data) => {
+  const res = await axiosInstance.post("/comments/", data, {
+    headers: { "Content-Type": "multipart/form-data" },
+  });
+  return res.data;
+};
+
+export const deleteComment = async (id) => {
+  const res = await axiosInstance.delete(`/comments/${id}/`);
   return res.data;
 };
