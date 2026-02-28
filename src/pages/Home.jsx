@@ -118,7 +118,7 @@ const Home = () => {
                       className=""
                       decoding="async"
                       loading="lazy"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/logo3.png"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/C-logo.png"
                       style={{
                         aspectRatio: "1.41",
                       }}
@@ -130,7 +130,7 @@ const Home = () => {
                       className=""
                       decoding="async"
                       loading="lazy"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/GREYOCEAN.png"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/cropped-2021-business-cards-1536x591.png"
                       style={{
                         aspectRatio: "1.41",
                       }}
@@ -142,7 +142,7 @@ const Home = () => {
                       className=""
                       decoding="async"
                       loading="lazy"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/download.png"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/GreenLife-logo-black.png"
                       style={{
                         aspectRatio: "1.41",
                       }}
@@ -180,7 +180,7 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col flex v--center h--center fd--column">
-                    <div className="title--l color--white">60T+</div>
+                    <div className="title--l color--white">60K+</div>
                     <div className="txt color--white-light txt--s minh-2lh minh-3lh-mob">
                       <p>Serving Clients Nationwide</p>
                     </div>
@@ -813,7 +813,7 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                   Engineering that’s installation-ready
                 </div>
                 <div className="txt txt--lead mt-12 mb-auto color--dark">
-                  We design htmlFor implementation, not handoff.{" "}
+                  Construction of Transformer earthing system at a site by Dampecon Ltd.{" "}
                 </div>
                 <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                   <p>
