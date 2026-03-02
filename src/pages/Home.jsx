@@ -650,7 +650,7 @@ Maintain & Expand
               About DAMPECON LTD.
             </div>
             <div className="nobr-mob title title--xl mw1040 isview textslide trd02 mb-40 mb-32-mob">
-              Our team of professionals combined experience to power your success —  <span></span>
+              Our professionals combined experience to power your success —  <span></span>
             </div>
             <div className="txt txt--l color--dark-secondary mw760 mt-48 mt-24-mob isview slidetop trd02">
               Founded on expertise and integrity, DAMPECON LTD. is a trusted name in electrical engineering installations and global procurement.
