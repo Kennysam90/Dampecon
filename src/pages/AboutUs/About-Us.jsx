@@ -1592,7 +1592,7 @@ Their project execution and technical expertise ensured every system met safety,
               </div>
               <div className="mt-auto mt-8-mob">
                 <Link
-                  to="/mobile-app"
+                  to="/electrical-installation"
                   className="btn btn--dark btn--tab arr arr-right hover--orange"
                 >
                   <span>

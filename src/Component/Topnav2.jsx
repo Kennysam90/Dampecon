@@ -38,7 +38,7 @@ const Topnav2 = () => {
                                                         <li>
                                                           <Link
                                                             className="title title--s color--dark"
-                                                            to="/webapp"
+                                                            to="/electrical-procurement"
                                                             target="_self">
                                                             <span>
                                                               <b>Electrical Solar Panel</b>
@@ -48,7 +48,7 @@ const Topnav2 = () => {
                                                         <li>
                                                           <Link
                                                             className="title title--s color--dark"
-                                                            to="/mobile-app"
+                                                            to="/electrical-installation"
                                                             target="_self">
                                                             <span>
                                                               <b>Electrical Installation & Commissioning</b>
@@ -74,7 +74,7 @@ const Topnav2 = () => {
                                                         <li>
                                                           <Link
                                                             className="title title--s color--dark"
-                                                            to="/web-development"
+                                                            to="/electrical-engineering"
                                                             target="_self">
                                                             <span>
                                                               <b>Repairs/maintenance</b>
@@ -84,7 +84,7 @@ const Topnav2 = () => {
                                                         <li>
                                                           <Link
                                                             className="title title--s color--dark"
-                                                            to="/mobile-app-development"
+                                                            to="/electrical-procurement-installation"
                                                             target="_self">
                                                             <span>
                                                               <b>Engineering Procurement</b>
@@ -249,7 +249,7 @@ const Topnav2 = () => {
                                                 <li>
                                                   <Link
                                                     className="btn btn--simple arr dark"
-                                                    to="/webapp"
+                                                    to="/electrical-procurement"
                                                     target="_self">
                                                     <span>
                                                       <b>Electrical Solar Panel</b>
@@ -259,7 +259,7 @@ const Topnav2 = () => {
                                                 <li>
                                                   <Link
                                                     className="btn btn--simple arr dark"
-                                                    to="/mobile-app"
+                                                    to="/electrical-installation"
                                                     target="_self">
                                                     <span>
                                                       <b>Electrical Installation & Commissioning</b>
@@ -277,7 +277,7 @@ const Topnav2 = () => {
                                                 <li>
                                                   <Link
                                                     className="btn btn--simple arr dark"
-                                                    to="/web-development"
+                                                    to="/electrical-engineering"
                                                     target="_self">
                                                     <span>
                                                       <b>Repairs/maintenance</b>
@@ -287,7 +287,7 @@ const Topnav2 = () => {
                                                 <li>
                                                   <Link
                                                     className="btn btn--simple arr dark"
-                                                    to="/mobile-app-development"
+                                                    to="/electrical-procurement-installation"
                                                     target="_self">
                                                     <span>
                                                       <b>Engineering Procurement</b>

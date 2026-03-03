@@ -44,10 +44,10 @@ function App() {
         <Route path='/cases'  element={<Cases />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about-us' element={<AboutUs />} />
-        <Route path='/webapp' element={<Webapp />} />
-        <Route path='/mobile-app' element={<Mobileapp />} />
-        <Route path='/mobile-app-development' element={<Mobiledev />} />
-        <Route path='/web-development' element={<Webdev />} />
+        <Route path='/electrical-procurement' element={<Webapp />} />
+        <Route path='/electrical-installation' element={<Mobileapp />} />
+        <Route path='/electrical-procurement-installation' element={<Mobiledev />} />
+        <Route path='/electrical-engineering' element={<Webdev />} />
         <Route path='/teams' element={<Teams />} />
         <Route path='/topnav2' element={<Topnav2 />} />
         <Route path='/chat' element={<Chat />} />

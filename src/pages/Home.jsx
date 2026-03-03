@@ -394,7 +394,7 @@ Maintain & Expand
                   <div className="btn-wrap mt-auto pt-32 pc-visible isview slidetop">
                     <Link
                       className="btn btn--orange arr hover--white"
-                      to="/webapp"
+                      to="/electrical-procurement"
                       target="_self">
                       <span>
                         <b>Explore all</b>
@@ -634,7 +634,7 @@ Maintain & Expand
             <div className="mob-visible mt-40 pt-8">
               <Link
                 className="btn btn--orange arr fullw"
-                to="/webapp"
+                to="/electrical-procurement"
                 target="_self">
                 <span>
                   <b>Explore all</b>
