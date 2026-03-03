@@ -273,49 +273,14 @@ const Chat = () => {
                     Have a project to <br />
                     discuss?
                   </div>
-                  <div className="contact flex v--stretch h--between mt-auto mt-32-mob">
-                    {/* <img
-                      className="radius-6 photo"
-                      src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/accountant.jpeg"
-                      alt="Image - ksenia"
-                      loading="lazy"
-                      decoding="async"
-                      style={{ aspectRatio: "0.75555555555556" }}
-                    />{" "} */}
+                  <div className="contact flex v--stretch h--between mt-auto ">
                     <div className="bio flex fd--column v--start">
-                      <a
-                        href="https://www.linkedin.com/in/kseniia-shalia-a21921240/"
-                        target="_blank"
-                        rel="nofollow"
-                        className="soc"
-                      >
-                        <img
-                          src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/linkedin-alt.svg"
-                          loading="lazy"
-                          decoding="async"
-                          alt=""
-                        />
-                      </a>
-                      <div className="txt txt--m">Miss Hoglah Amos</div>
-                      <div className="txt txt--s color--white-light">
-                        Legal Services{" "}
-                      </div>
-                      <div className=" flex v--start h--start mt-10 pt-8">
-                        <div className="copy_wrap">
-                          <img
-                            src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
-                            loading="lazy"
-                            decoding="async"
-                            data-text="dampecon0504@gmail.comio.com"
-                            alt=""
-                            className="copyme"
-                          />
-                        </div>
+                      <div className=" flex v--start h--start" style={{marginTop:"-5em"}}>
                         <a
                           href="mailto:dampecon0504@gmail.comio.com"
                           className="btn btn--simple"
                         >
-                          <span>Hoglahamos@dampecon.com</span>
+                          <span>info@dampecon.com</span>
                         </a>
                       </div>
                     </div>
@@ -336,24 +301,7 @@ const Chat = () => {
                       style={{ aspectRatio: "0.75555555555556" }}
                     />{" "} */}
                     <div className="bio flex fd--column v--start">
-                      <a
-                        href="https://www.linkedin.com/in/polina-chebanova/" 
-                        target="_blank"
-                        rel="nofollow"
-                        className="soc"
-                      >
-                        <img
-                          src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/linkedin-alt.svg"
-                          loading="lazy"
-                          decoding="async"
-                          alt=""
-                        />
-                      </a>
-                      <div className="txt txt--m">Engr. Dandale A.M, FNSE, COREN Chairman </div>
-                      <div className="txt txt--s color--white-light">
-                        Chairman
-                      </div>
-                      <div className=" flex v--start h--start gap-4 mt-10 pt-8">
+                      <div className=" flex v--start h--start gap-4 mt-10 pt-8" style={{marginTop:"-5em"}}>
                         <div className="copy_wrap">
                           <img
                             src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
@@ -368,7 +316,7 @@ const Chat = () => {
                           href="mailto:mailto:dampecon0504@yahoo.comudio.com"
                           className="btn btn--simple" 
                         >
-                          <span>dandaleam@dampecon.com</span>
+                          <span>info@dampecon.com</span>
                         </a>
                       </div>
                     </div>

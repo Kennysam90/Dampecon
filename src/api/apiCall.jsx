@@ -85,3 +85,21 @@ export const deleteComment = async (id) => {
   const res = await axiosInstance.delete(`/comments/${id}/`);
   return res.data;
 };
+
+export const getTeam = async () => {
+  const res = await axiosInstance.get("/team");
+  return res.data;
+};
+
+export const createTeam = async (data) => {
+  // data must be FormData if uploading photo
+  const res = await axiosInstance.post("/team", data, {
+    headers: { "Content-Type": "multipart/form-data" },
+  });
+  return res.data;
+};
+
+export const deleteTeam = async (id) => {
+  const res = await axiosInstance.delete(`/team/${id}`);
+  return res.data;
+};

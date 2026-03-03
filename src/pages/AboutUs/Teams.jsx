@@ -4,7 +4,7 @@ import Footer from '../../Component/Footer'
 import Award from '../../Component/Award'
 import { Link } from 'react-router-dom'
 import Chat from '../../Component/Chat'
-import { TEAM_MEMBERS_WITH_EMAIL } from "../../Component/teamData";
+import LeadershipTeam from "../../Component/LeadershipTeamSection";
 
 const Teams = () => {
   return (
@@ -80,69 +80,7 @@ const Teams = () => {
           </div>
         </div>
       </section>
-     <section
-  className="pt-120 pt-64-mob pb-64-mob mb-200 mb-0-mob"
-  id="our-team"
->
-  <div className="container">
-    <div className="title title--xl isview textslide visible">
-      Our leadership <span>team</span>
-    </div>
-
-    <div className="team-flex-wrap grid col-3 col-1-mob gap-20-mob gap-40 mt-64 mt-40-mob">
-      {TEAM_MEMBERS_WITH_EMAIL.map((member) => (
-        <div
-          key={member.id}
-          className="card advisor-card p-40 p-20-mob radius-16 isview slidetop disable-scrollbar"
-          data-card={member.id}
-        >
-          <div className="mask bg--dark" />
-
-          <div className="top">
-            <div className="img-wrap">
-              <img
-                className=""
-                src={member.image}
-                alt={member.alt}
-                loading="lazy"
-                decoding="async"
-                style={{ aspectRatio: member.aspectRatio }}
-              />
-            </div>
-
-            <div className="bio mt-24">
-              <div className="bio-name color--dark">
-                {member.first_name} {member.last_name}
-              </div>
-
-              <div className="bio-position color--dark-secondary">
-                {member.occupation}
-              </div>
-
-              {/* Email (clickable, CSS unchanged) */}
-              <a
-                href={`mailto:${member.email}`}
-                className="bio-position color--dark-secondary"
-              >
-                {member.email}
-              </a>
-            </div>
-          </div>
-
-          <div className="txt txt--m color--white description pt-20 pt-8-mob">
-            {member.description}
-          </div>
-
-          <span
-            className="readmore uppercase readmore_team_text txt txt--control-m mt-16"
-            data-text-primary="Read more"
-            data-text-secondary="Read less"
-          />
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
+     <LeadershipTeam />
       <section className="mt-200 mt-0-mob pt-64-mob pb-120 pb-64-mob">
         <div className="container">
           <div className="title title--xl isview textslide">

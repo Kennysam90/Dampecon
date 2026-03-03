@@ -71,6 +71,11 @@ const TestimonialsManager = () => {
   return (
     <div style={styles.container}>
       <div style={styles.headerSection}>
+        <img
+          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Logo.png"
+          alt="Project logo"
+          style={styles.logo}
+        />
         <h1 style={{...styles.mainTitle, fontSize: isMobile ? "28px" : "36px"}}>
           Share your thoughts about Dampecon Ltd.
         </h1>
@@ -190,6 +195,7 @@ const TestimonialsManager = () => {
 const styles = {
     container: { maxWidth: "1200px", margin: "0 auto", padding: "20px" },
     headerSection: { textAlign: "center", marginBottom: "30px" },
+    logo: { width: "160px", maxWidth: "70vw", height: "auto", margin: "0 auto 12px", display: "block" },
     mainTitle: { fontWeight: "800", color: "#111", marginBottom: "10px" },
     subtitle: { fontSize: "16px", color: "#666" },
     page: { display: "flex", fontFamily: "sans-serif" },
